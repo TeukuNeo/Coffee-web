@@ -477,14 +477,6 @@ a .navbar-logo {
    object-fit: cover;
 }
 
-.promo-img img:hover{
-    background-color: white;
-    opacity: 10;
-    transition: all 0.3s linear;
-    cursor: pointer;
-    animation: bounce 2s ease-in-out infinite;
-}
-
 .promo-container .promo-scrollbar{
     height: 24px;
     width: 100%;
