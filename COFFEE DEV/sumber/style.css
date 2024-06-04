@@ -156,6 +156,7 @@ a .navbar-logo {
 .hero .content {
     padding: 1.4rem;
     max-width: 60rem;
+    margin: 0 auto;
 }
 
 .hero .content h1 {
@@ -191,6 +192,42 @@ a .navbar-logo {
 .hero .content a:hover{
     color: #432818;
 }
+
+/* Media queries for mobile and iPad */
+@media (max-width: 768px) {
+    
+    .hero {
+      min-height: auto; 
+    }
+  
+    .hero .content h1 {
+      font-size: 2.5em;
+    }
+  
+    .hero .content p {
+      font-size: 1.2rem; 
+    }
+  
+    .hero .content .cta {
+      font-size: 1rem; 
+      padding: 0.8rem 2rem; 
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .hero .content h1 {
+      font-size: 3.5em; 
+    }
+  
+    .hero .content p {
+      font-size: 1.4rem; 
+    }
+  
+    .hero .content .cta {
+      font-size: 1.2rem;
+      padding: 1rem 2.5rem;
+    }
+  }
 
 /* ABOUT SECTION */
 .about {
@@ -254,6 +291,36 @@ a .navbar-logo {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+/* Media query for mobile screens (max-width 768px) */
+@media (max-width: 768px) {
+    .about-container {
+      width: 100%;
+      padding-top: 50px;
+    }
+  
+    .about h2 {
+      margin-left: 0; 
+    }
+  
+    .about-content,
+    .about-img {
+        .about-img img {
+            max-width: 100%;
+            height: auto; 
+            margin: 0 auto; 
+            display: block; 
+          }
+    }
+  
+    .about-content .about-content-title {
+      font-size: 22px; 
+    }
+  
+    .about-content p {
+      font-size: 16px; 
+    }
 }
 
 /** CART RULE **/
